@@ -46,4 +46,4 @@ def test_float_kelvin2fahrenheit():
 
 
 def test_correct_response_kelvin2fahrenheit():
-    assert tempyrature.Converter.kelvin2fahrenheit(280.2) == -19.30999999999998
+    assert tempyrature.Converter.kelvin2fahrenheit(280.2) == 44.69000000000002

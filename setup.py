@@ -6,7 +6,7 @@ with open('README.md', encoding='utf-8') as file:
 
 setup(
     name='tempyrature',
-    version='1.0.0',
+    version='1.0.1',
     description='A simple temperature converter.',
     long_description=readme,
     author='Lobooooooo14',
