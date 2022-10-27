@@ -7,7 +7,7 @@
 ![GitHub commit activity](https://img.shields.io/github/commit-activity/w/Lobooooooo14/tempyrature?style=for-the-badge)
 
 ![GitHub](https://img.shields.io/github/license/Lobooooooo14/tempyrature?style=for-the-badge)
-<div>
+</div>
 
 # Tempyrature
 
