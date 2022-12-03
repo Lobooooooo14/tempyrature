@@ -190,3 +190,33 @@ class Converter:
 
         fahrenheit = (kelvin - 273.15) * 9.0/5.0 + 32
         return fahrenheit
+
+
+    def celsius2rankine(celsius: float) -> float:
+        rankine = (celsius + 273.15) * 9/5
+        return rankine
+
+
+    def rankine2celsius(rankine: float) -> float:
+        celsius = rankine * 5/9 - 273.15
+        return celsius
+
+
+    def fahrenheit2rankine(fahrenheit: float) -> float:
+        rankine = fahrenheit + 459.67
+        return rankine
+
+
+    def rankine2fahrenheit(rankine: float) -> float:
+        fahrenheit = rankine - 459.67
+        return fahrenheit
+
+
+    def kelvin2rankine(kelvin: float) -> float:
+        rankine = kelvin * 9/5
+        return rankine
+
+
+    def rankine2kelvin(rankine: float) -> float:
+        kelvin = rankine * 5/9
+        return kelvin
