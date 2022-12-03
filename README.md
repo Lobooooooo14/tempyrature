@@ -1,3 +1,14 @@
+<div align="center"> 
+
+![PyPI](https://img.shields.io/pypi/v/tempyrature?style=for-the-badge)
+
+![PyPI - Downloads](https://img.shields.io/pypi/dm/tempyrature?style=for-the-badge)
+
+![GitHub commit activity](https://img.shields.io/github/commit-activity/w/Lobooooooo14/tempyrature?style=for-the-badge)
+
+![GitHub](https://img.shields.io/github/license/Lobooooooo14/tempyrature?style=for-the-badge)
+</div>
+
 # Tempyrature
 
 Tempyrature is a simple Python module to convert temperature scales easily.
