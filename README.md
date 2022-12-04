@@ -7,6 +7,9 @@
 ![GitHub commit activity](https://img.shields.io/github/commit-activity/w/Lobooooooo14/tempyrature?style=for-the-badge)
 
 ![GitHub](https://img.shields.io/github/license/Lobooooooo14/tempyrature?style=for-the-badge)
+
+[![Documentation Status](https://readthedocs.org/projects/tempyrature/badge/?version=latest&style=for-the-badge)](https://tempyrature.readthedocs.io/en/latest/?badge=latest)
+
 </div>
 
 # Tempyrature
@@ -15,13 +18,9 @@ Tempyrature is a simple Python module to convert temperature scales easily.
 
 ***
 
-## Scales
+## Documentation
 
-Tempyrature currently supports 3 temperature ranges:
-
-- Celcius
-- Fahrenheit
-- Kelvin
+You can see the full documentation [***here***](https://tempyrature.readthedocs.io/en/latest/)
 
 ## Installation
 
@@ -58,7 +57,3 @@ from tempyrature import Converter
 print(Converter.celsius2fahrenheit(30.5)) #30.5°C
 #>>> 86.0
 ```
-
-## Documentation
-
-You can see the full documentation [***here***](https://github.com/Lobooooooo14/tempyrature/wiki/Documentation)
