@@ -193,30 +193,168 @@ class Converter:
 
 
     def celsius2rankine(celsius: float) -> float:
+        """
+        Converts celsius to rankine.
+
+        Parameters
+        ----------
+        celsius : float
+            The celsius temperature to convert.
+
+        Returns
+        -------
+        float
+            The converted temperature.
+
+        Examples
+        --------
+        >>> celsius2rankine(10.0)
+        509.66999999999996
+        
+        Formula
+        -------
+        rankine = (celsius + 273.15) * 9/5
+        """
+
         rankine = (celsius + 273.15) * 9/5
         return rankine
 
 
     def rankine2celsius(rankine: float) -> float:
+        """
+        Converts rankine to celsius.
+
+        Parameters
+        ----------
+        rankine : float
+            The rankine temperature to convert.
+
+        Returns
+        -------
+        float
+            The converted temperature.
+
+        Examples
+        --------
+        >>> rankine2celsius(509.66999999999996)
+        10.0
+        
+        Formula
+        -------
+        celsius = rankine * 5/9 - 273.15
+        """
+
         celsius = rankine * 5/9 - 273.15
         return celsius
 
 
     def fahrenheit2rankine(fahrenheit: float) -> float:
+        """
+        Converts fahrenheit to rankine.
+
+        Parameters
+        ----------
+        fahrenheit : float
+            The fahrenheit temperature to convert.
+
+        Returns
+        -------
+        float
+            The converted temperature.
+
+        Examples
+        --------
+        >>> fahrenheit2rankine(104.0)
+        563.6700000000001
+        
+        Formula
+        -------
+        rankine = fahrenheit + 459.67
+        """
+
         rankine = fahrenheit + 459.67
         return rankine
 
 
     def rankine2fahrenheit(rankine: float) -> float:
+        """
+        Converts rankine to fahrenheit.
+
+        Parameters
+        ----------
+        rankine : float
+            The rankine temperature to convert.
+
+        Returns
+        -------
+        float
+            The converted temperature.
+
+        Examples
+        --------
+        >>> rankine2fahrenheit(563.6700000000001)
+        104.00000000000006
+        
+        Formula
+        -------
+        fahrenheit = rankine - 459.67
+        """
+
         fahrenheit = rankine - 459.67
         return fahrenheit
 
 
     def kelvin2rankine(kelvin: float) -> float:
+        """
+        Converts kelvin to rankine.
+
+        Parameters
+        ----------
+        kelvin : float
+            The kelvin temperature to convert.
+
+        Returns
+        -------
+        float
+            The converted temperature.
+
+        Examples
+        --------
+        >>> kelvin2rankine(313.15000000000003)
+        563.6700000000001
+        
+        Formula
+        -------
+        rankine = kelvin * 9/5
+        """
+
         rankine = kelvin * 9/5
         return rankine
 
 
     def rankine2kelvin(rankine: float) -> float:
+        """
+        Converts rankine to kelvin.
+
+        Parameters
+        ----------
+        rankine : float
+            The rankine temperature to convert.
+
+        Returns
+        -------
+        float
+            The converted temperature.
+
+        Examples
+        --------
+        >>> rankine2kelvin(563.6700000000001)
+        313.15000000000003
+        
+        Formula
+        -------
+        kelvin = rankine * 5/9
+        """
+
         kelvin = rankine * 5/9
         return kelvin
