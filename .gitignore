@@ -1,6 +1,7 @@
 **/__pycache__/
 .vscode
 .pytest_cache/
+docs/_build
 
 # Distribution / packaging
 .Python
