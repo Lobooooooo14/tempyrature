@@ -30,8 +30,6 @@ class Converter:
         --------
         >>> celsius2fahrenheit(25.0)
         77.0
-        >>> celsius2fahrenheit(25.3)
-        77.53999999999999
 
         Formula
         -------
@@ -60,8 +58,6 @@ class Converter:
         --------
         >>> fahrenheit2celsius(77.0)
         25.0
-        >>> fahrenheit2celsius(25.3)
-        25.299999999999994
         
         Formula
         -------
@@ -90,8 +86,6 @@ class Converter:
         --------
         >>> celsius2kelvin(10.0)
         283.15
-        >>> celsius2kelvin(10.7)
-        283.84999999999997
 
         Formula
         -------
@@ -120,8 +114,6 @@ class Converter:
         --------
         >>> kelvin2celsius(283.0)
         9.850000000000023
-        >>> kelvin2celsius(283.84)
-        10.689999999999998
         
         Formula
         -------
@@ -150,8 +142,6 @@ class Converter:
         --------
         >>> fahrenheit2kelvin(80.0)
         299.81666666666666
-        >>> fahrenheit2kelvin(25.7)
-        300.2055555555555
         
         Formula
         -------
@@ -180,8 +170,6 @@ class Converter:
         --------
         >>> kelvin2fahrenheit(299.81666666666666)
         80.00000000000003
-        >>> kelvin2fahrenheit(300.2055555555555)
-        80.69999999999997
         
         Formula
         -------
